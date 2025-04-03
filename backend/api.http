@@ -1,0 +1,125 @@
+# Users
+###
+POST http://localhost:3000/users/register
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "jd@gmail.com",
+  "password": "12345678",
+  "phoneNumber": "123-456-7890",
+  "address": "123 Main St"
+}
+
+###
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+  "email": "jd@gmail.com",
+  "password": "12345678"
+}
+
+###
+POST http://localhost:3000/users/logout
+
+###
+GET http://localhost:3000/users/2
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+  "name": "John Doe Updated",
+  "email": "john.doe@gmail.com",
+  "password": "newpassword123",
+  "phoneNumber": "987-654-3210",
+  "address": "456 Oak Ave"
+}
+
+###
+DELETE http://localhost:3000/users/1
+
+# Pets
+###
+POST http://localhost:3000/pets/
+Content-Type: application/json
+
+{
+  "user_id": 2,
+  "name": "Buddy",
+  "species": "Dog",
+  "breed": "Labrador",
+  "age": 3,
+  "weight": 25.5
+}
+
+###
+GET http://localhost:3000/pets/4
+Content-Type: application/json
+
+###
+DELETE http://localhost:3000/pets/3
+
+### update pet
+
+
+# Appointments
+###
+POST http://localhost:3000/appointments/
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "pet_id": 1,
+  "date": "2025-04-01",
+  "status": "scheduled",
+  "payment_method": "credit"
+}
+
+###
+GET http://localhost:3000/appointments/1
+Content-Type: application/json
+
+###
+DELETE http://localhost:3000/appointments/2
+
+# Exams
+###
+POST http://localhost:3000/exams/
+Content-Type: application/json
+
+{
+  "pet_id": 1,
+  "exam_type": "Blood Test",
+  "date": "2025-04-02",
+  "result": "Normal",
+  "status": "completed",
+  "payment_method": "cash"
+}
+
+###
+GET http://localhost:3000/exams/1
+Content-Type: application/json
+
+###
+DELETE http://localhost:3000/exams/1
+
+# Payments
+###
+POST http://localhost:3000/payments/
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "amount": 75.00
+}
+
+###
+GET http://localhost:3000/payments/1
+Content-Type: application/json
+
+###
+GET http://localhost:3000/pets/user/2
