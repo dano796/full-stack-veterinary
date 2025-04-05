@@ -2,6 +2,8 @@
 
 Full Stack project for a web app that provides home veterinary services. The app allows users to register, manage pet information, book appointments or exams, make payments, and more.
 
+![Home Page](previews/home.png)
+
 ## Technologies Used
 
 ### Backend
@@ -23,11 +25,23 @@ Full Stack project for a web app that provides home veterinary services. The app
 
 - Registration and login.
 - Management of pet information.
+
+![Añadir amigo](previews/pets.png)
+
 - Appointment booking for veterinary consultations.
 - Viewing appointment history.
+
+![Añadir amigo](previews/appointments.png)
+
 - Exam booking.
 - Viewing exam history.
+
+previews
+
 - Service payments via credit card or cash (simulation).
+- Contact section.
+
+![Añadir amigo](previews/contact.png)
 
 ## Installation and Setup
 
