@@ -36,7 +36,7 @@ Full Stack project for a web app that provides home veterinary services. The app
 - Exam booking.
 - Viewing exam history.
 
-previews
+![Añadir amigo](previews/exams.png)
 
 - Service payments via credit card or cash (simulation).
 - Contact section.
