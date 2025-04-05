@@ -63,7 +63,7 @@ previews
    node app.js
    ```
 
-### Frontend
+### Frontend
 
 1. Access the Frontend directory (assuming you already cloned the repository by following the steps before):
    ```sh
