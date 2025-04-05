@@ -49,7 +49,7 @@ Full Stack project for a web app that provides home veterinary services. The app
    node app.js
    ```
 
-### Frontend
+### Frontend
 
 1. Access the Frontend directory (assuming you already cloned the repository by following the steps before):
    ```sh
