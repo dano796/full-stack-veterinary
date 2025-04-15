@@ -77,3 +77,7 @@ Full Stack project for a web app that provides home veterinary services. The app
    ```sh
    npm run dev
    ```
+---
+
+### Daniel Ortiz Aristizábal
+### Plataformas de Programación Empresarial - Universidad Pontificia Bolivariana
